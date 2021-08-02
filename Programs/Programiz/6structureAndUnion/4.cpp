@@ -10,9 +10,9 @@ typedef struct timeperiod
 int main()
 {
     time t1,t2,diff;
-    cout<<"enter time 1";
+    cout<<"enter time 1\n";
     cin>>t1.hour>>t1.minute>>t1.second;
-    cout<<"enter time 12";
+    cout<<"enter time 12\n";
     cin>>t2.hour>>t2.minute>>t2.second;
     
    diff.hour= t1.hour>t2.hour?t1.hour-t2.hour:t2.hour-t1.hour;
