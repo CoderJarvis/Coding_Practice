@@ -18,7 +18,4 @@ int main()
      else cout<<"its not a perfect number";
 
 
-
-
-
 }

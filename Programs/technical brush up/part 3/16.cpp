@@ -7,7 +7,7 @@ int main()
      int n;
      cin>>n;
      int i,j;
-     int sum=0;
+     float sum=0;
      for(i=1,j=n;i<=n;i++,j--)
      {
          sum=sum+(float)pow(n,i)/j;

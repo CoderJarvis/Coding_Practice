@@ -1,0 +1,36 @@
+PART-3
+1. /* Finding area of a rectangle given the length and breadth */
+2. /* Finding perimeter of rectangle given the length and breadth */
+3. /* Converting a given temperature in Farenheit to Celcius degrees */
+4. /* Finding area of a circle given integer radius and using pi as 22/7 instead 
+	  of 3.142
+5. /* Finding an inputted number is Odd or Even */
+6. /* Finding an inputted number is divisible by 3 and 5 both or not */
+7. /* Finding an inputted year is Leap year or not */
+8. /* Finding an inputted number is Perfect square or not */
+9. /* Displaying the grade from the given marks Calculation is as per the following
+	  marks>=90 O,80-89 E, 70-79 A, 60-69 B, 50-59 C, 40-49 D,<40 F
+11. /* Printing a single digit inputted number in words */
+12. /* Printing whether an inputted character is vowel or consonant */
+13. /* Print the sum of 1+2+ ... +n */
+14. /* Print the factorial n! ie. 1*2* ... *n for a given number n */
+15. /* Print the sum of series n1/2 + n2/2 +...+nn/2 ^
+16. /* Print the sum of series n1/n + n2/(n-1)+...+nn/1 ^
+17. /* Print the sum of series 0-1+2-3+4- ... ± n */
+18. /* Print the sum of series 0-1+2-3+4- ... ± n */
+19. /* Print the sum of series 0-1+2-3+4- ... ± n */
+20. /* Print the factors of a given number n */
+21. /* Print the sum of factors of a given number n */
+22. /* Find whether a given number is perfect number or not ie. sum of factors = 2*number */
+
+PART-4
+1. /* Print the sum of series n1/n! + n2/(n-1)! + ... + nn/1! */
+2. /*Find whether a given number is prime number or not */
+3. /*Find HCF /GCD of two given numbers */
+4. /*Find LCM of two given numbers */
+5. /* Count the number of digits of a given number n */
+6. /* Find the sum of digits of a given number n */
+7.  check strong number or not
+8. /* Find whether n is Amstrong number or not ie. sum of cubes of digits = number */
+9. /* Find the reverse of a given number n */
+10. /* Find whether a number is palindrome or not */
