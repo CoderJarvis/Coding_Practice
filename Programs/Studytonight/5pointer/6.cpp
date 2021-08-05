@@ -17,6 +17,4 @@ int main()
      cout<<"the value of val is :"<<**pptr<<endl;
 
 
-
-
 }
