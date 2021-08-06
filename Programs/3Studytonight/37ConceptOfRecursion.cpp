@@ -1,3 +1,5 @@
+// Program to find Factorial of a Number using Recursion
+
 #include <iostream>
 using namespace std;
 int fact(int n)

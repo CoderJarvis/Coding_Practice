@@ -1,3 +1,5 @@
+// Program to find Sum of First N Numbers
+
 #include <iostream>
 using namespace std;
 int main()

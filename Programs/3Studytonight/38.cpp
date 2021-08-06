@@ -1,3 +1,5 @@
+// C Program to calculate a Number raised to the Power of N using Recursion
+
 #include <iostream>
 using namespace std;
 int power(int b,int e)
