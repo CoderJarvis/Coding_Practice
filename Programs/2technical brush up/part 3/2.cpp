@@ -1,13 +1,11 @@
+// Finding perimeter of rectangle given the length and breadth
+
 #include <iostream>
 using namespace std;
 int main()
 {
 
-     int a,b;
-     cin>>a>>b;
-     cout<<2*(a+b);
-
-
-
-
+     int a, b;
+     cin >> a >> b;
+     cout << 2 * (a + b);
 }

@@ -1,21 +1,22 @@
+// Find whether a given number is perfect number or not ie. sum of factors = 2*number
+
 #include <iostream>
 using namespace std;
 int main()
 {
-     int n;
-     cin>>n;
-     int sum=0;
-     for(int i=1;i<=n;i++)
-     {
-         if(n%i==0)
-         {
-             sum=sum+i;
-         }
-     }
+    int n;
+    cin >> n;
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        if (n % i == 0)
+        {
+            sum = sum + i;
+        }
+    }
 
-     if(sum==2*n)
-     cout<<"its a perfect number";
-     else cout<<"its not a perfect number";
-
-
+    if (sum == 2 * n)
+        cout << "its a perfect number";
+    else
+        cout << "its not a perfect number";
 }

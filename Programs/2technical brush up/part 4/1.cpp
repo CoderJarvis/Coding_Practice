@@ -1,28 +1,29 @@
+// Print the sum of series n1/n! + n2/(n-1)! + ... + nn/1!
+
 #include <iostream>
 #include <cmath>
 using namespace std;
 int fact(int x)
-{   
-    int fact=1;
-    for(int i=1;i<=x;i++)
+{
+    int fact = 1;
+    for (int i = 1; i <= x; i++)
     {
-        fact=fact*i;
+        fact = fact * i;
     }
     return fact;
 }
 int main()
 {
     int n;
-    float sum=0;;
-    cin>>n;
-    int i,j;
-    for(i=1, j=0;i<=n;i++,j++)
+    float sum = 0;
+    ;
+    cin >> n;
+    int i, j;
+    for (i = 1, j = 0; i <= n; i++, j++)
     {
-        sum=sum+(float)pow(n,i)/fact(n-j);
+        sum = sum + (float)pow(n, i) / fact(n - j);
     }
-    cout<<sum;
-
-
+    cout << sum;
 
     // int n,i,j,k,fact;
     // float sum=0;
@@ -36,6 +37,4 @@ int main()
     // }
 
     // cout<<sum;
-
-
 }

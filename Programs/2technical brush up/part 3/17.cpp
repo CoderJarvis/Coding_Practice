@@ -1,24 +1,25 @@
+// Print the sum of series 0-1+2-3+4- ... ± n
+
 #include <iostream>
 #include <cmath>
 using namespace std;
 int main()
 {
 
-     int n;
-     cin>>n;
-     int sum=0;
-     for(int i=0;i<=n;i++)
-     {
-         if(i%2==0)
-         {
-             sum=sum+i;
-         }
-         else
-         sum=sum-i;
-     }
+    int n;
+    cin >> n;
+    int sum = 0;
+    for (int i = 0; i <= n; i++)
+    {
+        if (i % 2 == 0)
+        {
+            sum = sum + i;
+        }
+        else
+            sum = sum - i;
+    }
 
-     cout<<sum;
-     
+    cout << sum;
 
     // int sum1=0;
     // int sum2=0;
@@ -33,13 +34,11 @@ int main()
 
     // cout<<sum1-sum2;
 
-
     // for(int i=0;i<=n;i++)
     // {
     //     sum=sum+pow(-1,i)*i;
     // }
     // cout<<sum;
-
 }
 
 //so its one problem can be solved by 3 method you have to chooe ur uptimise code
