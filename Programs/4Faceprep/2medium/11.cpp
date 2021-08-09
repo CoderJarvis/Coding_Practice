@@ -8,6 +8,6 @@ int main()
 
      int noofhandshakes=noofstudents * (noofstudents-1)/2;
      cout<<noofhandshakes;
-//finding nC2
+//finding nC2 = n*(n-1)/2;
 
 }
