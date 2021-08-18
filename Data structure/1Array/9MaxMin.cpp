@@ -18,23 +18,17 @@ int main()
          cout<<arr[i]<<" ";
      }
 
-     cout<<"\nenter the element you want to search\n";
-     int ele;
-     cin>>ele;
-     int flag=0;
-     int i=0;
-     for(i=0;i<n;i++)
+     int max,min;
+     min=arr[0];
+     max=arr[0];
+     for(int i=0;i<n;i++)
      {
-         if(arr[i]==ele)
-         {
-             flag=1;
-             break;     
-         }
+         if(arr[i]>max)
+         max=arr[i];
+         else if(arr[i]<min)
+         min=arr[i];
      }
-     if(flag)
-     cout<<"element found in the position :"<<i+1;
-     else
-     cout<<"element not found\n";
+     cout<<"\nmaximum :"<<max<<" minimum :"<<min;
 
 
 }

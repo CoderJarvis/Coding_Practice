@@ -18,23 +18,23 @@ int main()
          cout<<arr[i]<<" ";
      }
 
-     cout<<"\nenter the element you want to search\n";
-     int ele;
-     cin>>ele;
-     int flag=0;
-     int i=0;
-     for(i=0;i<n;i++)
+     int oldVal,newVal;
+     cout<<"\nenter the old value you want to modify\n";
+     cin>>oldVal;
+     cout<<"enter the new value\n";
+     cin>>newVal;
+
+     for(int i=0;i<n;i++)
      {
-         if(arr[i]==ele)
-         {
-             flag=1;
-             break;     
-         }
+         if(arr[i]==oldVal)
+         arr[i]=newVal;
      }
-     if(flag)
-     cout<<"element found in the position :"<<i+1;
-     else
-     cout<<"element not found\n";
+
+    cout<<"your new array elements are\n";
+     for(int i=0;i<n;i++)
+     {
+         cout<<arr[i]<<" ";
+     }
 
 
 }
