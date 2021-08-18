@@ -10,7 +10,7 @@ int main()
 
     int a = 0;
     int b = 1;
-    int c;
+    int c=a+b;
     int i = 3;
 
     if (n == 1)
@@ -21,11 +21,12 @@ int main()
 
     while (i <= n)
     {
-        c = a + b;
         cout << c << " ";
 
         a = b;
         b = c;
+        
+        c = a + b;
         i++;
     }
 }

@@ -9,19 +9,19 @@ int main()
      int n;
      cin>>n;
 
-     int square=n*n;
+     int squareofN=n*n;
      int flag=1;
 
      while(n)
      {
-         if(n%10 != square%10)
+         if(n%10 != squareofN%10)
          {
              flag=0;
              break;
          }
 
          n=n/10;
-         square=square/10;
+         squareofN=squareofN/10;
      }
 
      if(flag)

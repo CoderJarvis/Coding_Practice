@@ -25,9 +25,9 @@ int main()
     {
         if(leapyear(yr))
         cout<<29;
-        else cout<<28;
+        else
+        cout<<28;
     }
-   
-  
+     
 
 }

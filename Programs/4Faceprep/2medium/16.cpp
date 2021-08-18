@@ -17,8 +17,8 @@ int check(int x,int y)
     }
     if(flag)
     return 1;
-    else
-    return 0;
+    // else
+    // return 0;
 }
 int main()
 {   
@@ -36,6 +36,5 @@ int main()
              cout<<i<<" ";
          }
      }
-
 
 }

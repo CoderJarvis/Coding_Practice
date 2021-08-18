@@ -10,11 +10,8 @@ int main()
          cout<<"its an alphabet\n";
      }
      else
-     cout<<"not an alphabet";
+     cout<<"not an alphabet"<<endl;
 
-     cout<<(int)c;
-
-
-
+     cout<<(int)c<<endl;
 
 }

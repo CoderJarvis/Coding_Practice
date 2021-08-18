@@ -13,6 +13,7 @@ int prime(int x)
     if(i==x)
     return 1;
 }
+
 int main()
 {
 
@@ -29,9 +30,8 @@ int main()
              {
                  if(prime(i) && prime(j))
                 {
-                 cout<<"its is possible with values "<<i<<" "<<j<<endl;
-                 flag=1;
-                 
+               cout<<"its is possible with values "<<i<<" "<<j<<endl;
+                 flag=1;                 
                 }
              }
          }
@@ -43,7 +43,6 @@ int main()
      {
          cout<<"not possible\n";
      }
-
 
 
 }

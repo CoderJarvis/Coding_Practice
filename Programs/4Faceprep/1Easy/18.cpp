@@ -11,13 +11,11 @@ int main()
          if(n%i==0)
          {
              cout<<"not prime\n";
-             break;
+             break; //important in cancelation logic
          }
      }
      if(i==n)
      cout<<"its a prime number";
-
-
 
 
 }

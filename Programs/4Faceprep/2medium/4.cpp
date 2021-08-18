@@ -1,24 +1,21 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 int main()
 {
 
-     int n;
-     cin>>n;
+     string st;
+    cin>>st;     
+    for(int i=0;i<st.length();i++)
+    {
+        if(st[i]=='0')
+        {
+            st[i]='1';
 
-     int r;
-     while (n)
-     {
-         r=n%10;
-         if(r==0)
-         {
-             r=1;
-         }
-         n=n/10;
-     }
-     
+        }
 
-
-
+    }
+    cout<<st;
 
 }
+//using integer doubt

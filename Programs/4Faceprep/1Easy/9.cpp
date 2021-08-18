@@ -14,6 +14,4 @@ int main()
      cout<<n3<<" is greater\n";
 
 
-
-
 }
