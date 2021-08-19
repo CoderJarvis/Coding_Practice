@@ -19,11 +19,7 @@ int main()
     cout<<"enter the position in which you want to insert the new number\n";
     cin>>position;
 
-    cout<<"the old array is\n";
-    for(int i=0;i<n;i++)
-    {
-        cout<<arr[i]<<" ";
-    }
+   
 
     for(int i=n-1;i>=position-1;i--)
     {

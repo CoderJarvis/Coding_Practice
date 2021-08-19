@@ -1,8 +1,15 @@
 #include <stdio.h>
-int main()
+
+void main ( )
+
 {
-    int a=10,b=2;
-    int *pa=&a,*pb=&b;
-    printf("value = %d", *pa/ *pb);
-    return 0;
+
+  char *P = "ayqm" ;
+
+  char c;
+
+  c = ++*p ;
+
+  printf ("%c", c);
+
 }
