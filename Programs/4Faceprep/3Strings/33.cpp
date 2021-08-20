@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string.h>
 using namespace std;
-int notVowel(char s)
+int consonant(char s)
 {
     if(s=='a' || s=='e' || s=='i' || s=='o'||s=='u')
     return 0;
@@ -19,12 +19,11 @@ int main()
 
      for(int i=0;i<st1.length();i++)
      {
-         if(notVowel(st1[i]))
+         if(consonant(st1[i]))
          {
              st2.push_back(st1[i]);
          }
      }
      cout<<st2;
-
 
 }

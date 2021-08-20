@@ -1,18 +1,25 @@
+// Check whether a string is PALINDROME or Not
+
 #include <iostream>
 using namespace std;
 int main()
 {
-     string st1="abbbba";
-     string st2;
-     for(int i=st1.length();i>=0;i--)
+     string st1="madam";
+     int i,j;
+     int flag=1;
+     for(int i=0,j=st1.length()-1;i<j;i++,j--)
+
      {
-         st2.push_back(st1[i]);
+         if(st1[i]!=st1[j])
+         {
+             flag=0;
+             break;
+         }
      }
-     cout<<st1<<endl<<st2<<endl;
-    if(st1==st2)
+   
+    if(flag)
     cout<<"palindrome";
     else
     cout<<"not";
-
 
 }
