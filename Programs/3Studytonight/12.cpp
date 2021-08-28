@@ -8,6 +8,7 @@ int main()
      cout<<"how many numbers you want to input\n";
      int n;
      cin>>n;
+     int backup=n;
     //  int arr[n];
      int sum=0,x;
 
@@ -22,13 +23,19 @@ int main()
 
 
 
-      for(int i=0;i<n;i++)
-     {
-         cin>>x;
-         sum=sum+x;
-     }
+    //   for(int i=0;i<n;i++)
+    //  {
+    //      cin>>x;
+    //      sum=sum+x;
+    //  }
 
-     cout<<"the avergae is :"<<(float)sum/n;
+    while(n--)
+    { 
+      cin>>x;
+      sum=sum+x;
+    }
+
+     cout<<"the avergae is :"<<(float)sum/backup;
 
 
 }

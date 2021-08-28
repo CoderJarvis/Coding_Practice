@@ -15,11 +15,16 @@ int main()
     //  cout<<mul;
 
 
-    while(e!=0)
+    // while(e!=0)
+    // {
+    //     mul=mul*n;
+
+    //     e--;
+    // }
+
+     while(e--)
     {
         mul=mul*n;
-
-        e--;
     }
     cout<<mul;
 

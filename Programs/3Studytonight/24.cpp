@@ -20,34 +20,34 @@ int main()
         cout<<arr[i]<<" ";
      }
 
-     for(int i=1;i<n;i++)
-     {
-         for(int j=0;j<n-1;j++)
-         {
-             if(arr[j]>arr[i])
-             {
-                 int t;
-                 t=arr[j];
-                 arr[j]=arr[i];
-                 arr[i]=t;
-             }
-         }
-     }
+    //  for(int i=1;i<n;i++)
+    //  {
+    //      for(int j=0;j<n-1;j++)
+    //      {
+    //          if(arr[j]>arr[i])
+    //          {
+    //              int t;
+    //              t=arr[j];
+    //              arr[j]=arr[i];
+    //              arr[i]=t;
+    //          }
+    //      }
+    //  }
 
 
-    // for(int i=0;i<n-1;i++)
-    // {
-    //     for(int j=1;j<=n-1;j++)
-    //     {
-    //         if(arr[i]>arr[j])
-    //         {
-    //             int t;
-    //             t=arr[i];
-    //             arr[i]=arr[j];
-    //             arr[j]=t;
-    //         }
-    //     }
-    // }
+    for(int i=1;i<n-1;i++)
+    {
+        for(int j=i+1;j<=n-1;j++)
+        {
+            if(arr[i]>arr[j])
+            {
+                int t;
+                t=arr[i];
+                arr[i]=arr[j];
+                arr[j]=t;
+            }
+        }
+    }
 
 
 

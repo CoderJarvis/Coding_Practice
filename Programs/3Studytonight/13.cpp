@@ -4,7 +4,6 @@
 using namespace std;
 int main()
 {
-
      int n;
      cout<<"enter how many numbers you want to input\n";
      cin>>n;
@@ -15,8 +14,4 @@ int main()
          sum=sum+x;
      }
      cout<<sum;
-
-
-
-
 }

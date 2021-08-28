@@ -17,4 +17,6 @@ int main()
      cout << "the value of val is :" << val << endl;
      cout << "the value of val is :" << *ptr << endl;
      cout << "the value of val is :" << **pptr << endl;
+
+     
 }

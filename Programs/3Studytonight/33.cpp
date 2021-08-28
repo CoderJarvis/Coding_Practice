@@ -4,13 +4,14 @@
 
 int main()
 {
-    // int *ptrA,*ptrB;
+    int *ptrA,*ptrB;
 
-    // ptrA = (int *)1;
-    // ptrB = (int *)2;
+    ptrA = (int *)1;
+    ptrB = (int *)2;
     
-    // if(ptrB > ptrA)
-    //     printf("PtrB is greater than ptrA");
+    if(ptrB > ptrA) //u have to do this 
+        printf("PtrB is greater than ptrA\n");
+        // printf("%d%d",*ptrA,*ptrB); //this shows unexpected op
 
     // return(0);
 
@@ -20,8 +21,10 @@ int main()
     // ptrA = (int *)1000;
     // ptrB = (float *)2000;
     
-    // if(ptrB > ptrA)
+    // if(ptrB > ptrA) //doubt this shows arror
     //    printf("PtrB is greater than ptrA");
+
+    // if(6>2.2f)//this doesnt shows eeror here
     
     return(0);
 

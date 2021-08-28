@@ -1,8 +1,7 @@
-#include <iostream>
-using namespace std;
 // Fibonacci series upto n
 
-
+#include <iostream>
+using namespace std;
 int main()
 {
 

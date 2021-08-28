@@ -10,42 +10,40 @@ int prime(int x)
      {
          if(x%i==0)
          {
-             flag=0;
-             break;
+             return 0;
          }
      }
 
      if(i==x)
-     flag=1;
+    return 1;
 }
 int main()
 {
     int n;
     cin>>n;
-    int i=3;
 
 
-     
-if (i==1)
-{
-    cout<<"2";
-}
-else
-{
-            while(i<=n)
+
+    // int count=1;
+    // for(int i=2;count<=n;i++)
+    // {
+    //     if(prime(i))
+    //     {   
+    //         count++;
+    //         cout<<i<<" ";
+    //     }
+    // }
+
+    
+    for(int i=2;n;i++)
     {
         if(prime(i))
-        {
+        {             
             cout<<i<<" ";
-            i++;
+            n--;
         }
     }
- 
-}
 
-
-
-//doubt
 
 
 }

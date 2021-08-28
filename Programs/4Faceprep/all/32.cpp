@@ -7,12 +7,14 @@ int main()
 {
      string st="saswat";
      int flag=1;
-
+    char c;
+    int k;
      for(int i=0;i<st.length();i++)
-     {
-         for(int j=i+1;j<st.length();j++)
+     {  
+         c=st[i];
+         for(int j=i+1,k=j-1;j<st.length() || k>=st[0];j++,k--)
          {
-             if(st[i]==st[j])
+             if(c==st[j] || c==st[k])
             {
                  flag=0;
                  break;
@@ -22,12 +24,17 @@ int main()
 
          if(flag)
          {
-             cout<<st[i];
+             cout<<c;
          }
          else
          cout<<"y";
 
      }
+
+    for(int i=0;i<st.length();i++)
+    {
+        
+    }
 
 
 }

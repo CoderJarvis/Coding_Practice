@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-     string st="saswat kumar sk";
+     string st="s@a8wa$99t (k#(^u9ar6 _6sk";
   
 
      int arr[256]={0};//initilizing to each aary element is eesential it ll work as count later

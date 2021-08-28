@@ -1,6 +1,6 @@
+// Program to print the Fibonacci Series
 #include <iostream>
 using namespace std;
-// Program to print the Fibonacci Series
 
 
 void fibonacci(int term)

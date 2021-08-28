@@ -1,5 +1,5 @@
 // Abudant Number
-// sum its of proper divisors is less than that of the number 
+// number is less than its sum of proper divisors
 
 #include <iostream>
 using namespace std;
