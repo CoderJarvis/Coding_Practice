@@ -1,3 +1,5 @@
+// Program to find the sum of numbers in a given range
+
 #include <iostream>
 using namespace std;
 int main()

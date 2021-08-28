@@ -1,3 +1,5 @@
+// Find prime numbers in a given range
+
 #include <iostream>
 using namespace std;
 int prime(int x)

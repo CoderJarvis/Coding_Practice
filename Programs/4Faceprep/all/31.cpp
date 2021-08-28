@@ -1,3 +1,5 @@
+// Program to find the frequency of characters in a string
+
 #include <iostream>
 #include <string.h>
 using namespace std;

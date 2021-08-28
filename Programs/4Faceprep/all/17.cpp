@@ -1,3 +1,5 @@
+// Program to replace all 0's with 1 in a given integer
+
 #include <iostream>
 #include <string.h>
 using namespace std;

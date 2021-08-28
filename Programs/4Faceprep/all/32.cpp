@@ -1,3 +1,5 @@
+// Find the first non-repeating character in a string
+
 #include <iostream>
 #include <string.h>
 using namespace std;

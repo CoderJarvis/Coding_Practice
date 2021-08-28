@@ -1,3 +1,5 @@
+// Program to sort a string in alphabetical order
+
 #include <iostream>
 #include <string.h>
 using namespace std;

@@ -1,3 +1,5 @@
+// Capitalizing the first and the last letter of each word in a Line
+
 #include <iostream>
 #include <string.h>
 using namespace std;

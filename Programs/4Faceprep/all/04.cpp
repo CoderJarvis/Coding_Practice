@@ -1,3 +1,5 @@
+// Check whether a given character is upper case, lower case, number or special character
+
 #include <iostream>
 using namespace std;
 int main()

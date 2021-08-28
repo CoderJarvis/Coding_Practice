@@ -1,3 +1,5 @@
+// Find all possible permutations in which 'n' people can occupy 'r' seats in a theater
+
 #include <iostream>
 using namespace std;
 int fact(int x)

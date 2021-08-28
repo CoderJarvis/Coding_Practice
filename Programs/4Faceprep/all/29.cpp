@@ -1,3 +1,5 @@
+// Program to remove spaces from a string | FACE Prep
+
 #include <iostream>
 #include <string.h>
 using namespace std;

@@ -1,3 +1,5 @@
+// Remove brackets from an algebraic string/expression
+
 #include <iostream>
 #include <string.h>
 using namespace std;

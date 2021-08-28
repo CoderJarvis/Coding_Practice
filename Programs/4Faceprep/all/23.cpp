@@ -1,3 +1,5 @@
+// Find the number of times digit 3 occurs in each and every number from 0 to n
+
 #include <iostream>
 using namespace std;
 int check(int x,int y)

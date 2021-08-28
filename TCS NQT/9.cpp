@@ -9,6 +9,4 @@ int main()
     else
     cout<<n-1;
 
-
-
 }

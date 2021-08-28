@@ -1,3 +1,5 @@
+// Remove all Characters in a String Except Alphabet
+
 #include <iostream>
 #include <string.h>
 using namespace std;

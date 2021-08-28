@@ -1,3 +1,5 @@
+//Print the Armstrong numbers between two intervals
+
 #include <iostream>
 #include <cmath>
 using namespace std;
