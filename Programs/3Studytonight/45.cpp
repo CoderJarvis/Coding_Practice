@@ -13,4 +13,5 @@ int main()
     ptr2 = &n2;
     int c = *ptr1 + *ptr2;
     cout << c;
+    
 }

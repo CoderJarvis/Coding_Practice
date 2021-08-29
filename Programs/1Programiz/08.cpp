@@ -9,11 +9,10 @@ int main()
      cout<<"enter a character\n";
      cin>>c;
      cout<<(int)c<<endl;
-     if(((int)c>=65 && (int)c<=90 )|| ((int)c>=97 && (int)c<=122 ) )
+     if((c>=65 &&c<=90 )|| (c>=97 && c<=122 ) )
      cout<<c<<" is an alphabet\n";
      else
      cout<<c<<" is not  an alphabet";
-
 
 
 

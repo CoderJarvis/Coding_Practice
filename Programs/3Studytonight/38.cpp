@@ -18,5 +18,4 @@ int main()
 
     cout<< power(b,e);
 
-
 }

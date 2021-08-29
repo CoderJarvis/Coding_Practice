@@ -11,9 +11,5 @@ int main()
     cout<<3.141*r*r<<endl;
     cout<<2*3.141*r;
 
-    
-
-
-
 
 }

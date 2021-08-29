@@ -7,7 +7,5 @@ int main()
 
      cout<<"heloo world";
 
-
-
 cout<<'\n';
 }

@@ -17,6 +17,4 @@ int main()
      cout<<"not a pefect square";
 
 
-
-
 }

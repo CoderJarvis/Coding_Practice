@@ -10,7 +10,4 @@ int main()
      float si=(p*t*r)/100;
      cout<<si;
 
-
-
-
 }
