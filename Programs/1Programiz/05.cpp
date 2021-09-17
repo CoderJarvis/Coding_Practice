@@ -1,4 +1,4 @@
-// C Program to Swap Two Numbers
+// C Program to see the size using long keyword
 
 #include <iostream>
 using namespace std;
@@ -11,7 +11,6 @@ int main()
      cout<<sizeof(double); //8
      cout<<sizeof(long double); //16
 
+    //long keyword can only be used in int and double
 
-
-cout<<'\n';
 }

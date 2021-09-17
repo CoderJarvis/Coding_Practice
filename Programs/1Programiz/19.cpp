@@ -16,7 +16,4 @@ int main()
     }
     cout<<rev;
 
-
-
-cout<<endl;
 }

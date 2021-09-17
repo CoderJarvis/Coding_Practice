@@ -15,10 +15,4 @@ int main()
           cout<<c<<" ";
      }
      
-     
-
-
-
-
-printf("\n");
 }

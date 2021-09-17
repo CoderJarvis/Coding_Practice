@@ -12,7 +12,4 @@ int main()
      else
      cout<<"Consonent";
 
-
-
-cout<<'\n';
 }

@@ -11,8 +11,4 @@ int main()
      r=n1%n2;
      cout<<q<<" "<<r;
      
-
-
-
-cout<<'\n';
 }
