@@ -9,5 +9,5 @@ int main()
     cin>>c;
     printf("%d\n",c);
     cout<<(int)c;
-
+    //edit
 }
