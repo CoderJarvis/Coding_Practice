@@ -11,7 +11,7 @@ int main()
     for (int i = 1; i <= lower; i++)
     {
         if(n1%i==0 && n2%i==0)
-        hcf=i; //hcf or gcd is the heightest divisor of both the nuber 
+        hcf=i; //hcf or gcd is the heighest divisor of both the numbers
     }
     cout<<hcf<<endl;
 
