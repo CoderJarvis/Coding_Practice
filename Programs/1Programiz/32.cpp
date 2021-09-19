@@ -1,9 +1,10 @@
-// C Program to Check Prime or Armstrong Number Using User-defined Function
+// C Program to Check Prime or Armstrong Number Using User-defined Function.
 
 #include <iostream>
 using namespace std;
-int prime(int n)
+int isPrime(int n)
 {
+    
     int flag=1;
     for (int i = 2; i <n; i++)
     {
@@ -23,13 +24,11 @@ int prime(int n)
     {
         return 0;
     }
-    
-    
-    
+   
 }
 
 
-int armstrong(int n)
+int isArmstrong(int n)
 {   
     int temp=n;
    int sum=0;
@@ -56,10 +55,11 @@ int armstrong(int n)
 
 int main()
 {
-    int n;
-     cin>>n;
 
-    if (prime(n))
+    int n;
+    cin>>n;
+
+    if (isPrime(n))
     {
         cout<<n<<" is a prime number\n";
     }
@@ -67,7 +67,7 @@ int main()
     {
         cout<<n<<" is not a prime number\n";
     }
-    if (armstrong(n))
+    if (isArmstrong(n))
     {
         cout<<n<<" is a armstrong number\n";
     }
@@ -76,12 +76,4 @@ int main()
         cout<<n<<" is not a armstrong number\n";
     }
 
-
-    
-    
-
-
-
-
-cout<<endl;
 }

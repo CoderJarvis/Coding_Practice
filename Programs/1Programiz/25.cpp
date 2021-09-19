@@ -1,8 +1,8 @@
-// C Program to Display Armstrong Number Between Two Intervals
+// C Program to Display Armstrong Number Between Two Intervals.
 
 #include <iostream>
 using namespace std;
-int armstrong(int n)
+int isArmstrong(int n)
 {
     int sum=0;
     int temp=n;
@@ -32,14 +32,10 @@ int main()
      cin>>n1>>n2;
     for(;n1<=n2;n1++)
     {
-        if(armstrong(n1))
+        if(isArmstrong(n1))
         {
             cout<<n1<<" ";
         }
     }
 
-
-
-
-cout<<endl;
 }

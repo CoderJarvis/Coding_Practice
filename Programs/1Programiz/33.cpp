@@ -1,16 +1,15 @@
-// C Program to Find the Sum of Natural Numbers using Recursion
+// C Program to Find the Sum of Natural Numbers using Recursion.
 
 #include <iostream>
 using namespace std;
 int sum(int n)
 {
-    if (n == 0)
+    if (n == 1)
     {
-        return n;
+        return 1;
     }
     else
     {
-
         return n + sum(n - 1);
     }
 }
@@ -21,5 +20,4 @@ int main()
     cin >> n;
     cout << sum(n);
 
-    cout << endl;
 }

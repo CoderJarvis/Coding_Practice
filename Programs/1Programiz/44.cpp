@@ -1,11 +1,12 @@
-// C Program to Find Transpose of a Matrix
+// C Program to Find Transpose of a Matrix.
 
 #include <iostream>
 using namespace std;
 int main()
 {
+
     int r,c;
-     cin>>r>>c;
+    cin>>r>>c;
     int m[r][c];
     int m1[r][c];
 
@@ -27,7 +28,7 @@ int main()
         cout<<endl;
         
     }
-
+    // main logic
     for(int i=0;i<c;i++)
     {
         for(int j=0;j<r;j++)
@@ -46,7 +47,5 @@ int main()
     cout<<endl;
         
     }
-
-
 
 }

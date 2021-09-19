@@ -1,4 +1,4 @@
-// C Program to Convert Binary Number to Decimal and vice-versa
+// C Program to Convert Binary Number to Decimal and vice-versa.
 
 #include <iostream>
 #include <math.h>
@@ -11,6 +11,7 @@ void convertDecimal()
     int r;
     int i=0;
     int sum=0;
+
     while (n!=0)
     {
         r=n%10;
@@ -18,12 +19,7 @@ void convertDecimal()
         
         n=n/10;
         i++;
-
     }
-    cout<<sum;
-    
-
-
 
 }
 int main()
@@ -41,6 +37,4 @@ int main()
         // convertBinary();
     }
     
-
-cout<<endl;
 }

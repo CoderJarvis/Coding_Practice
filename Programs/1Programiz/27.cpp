@@ -1,4 +1,4 @@
-// C Program to Make a Simple Calculator Using switch...case
+// C Program to Make a Simple Calculator Using switch...case.
 
 #include <iostream>
 using namespace std;
@@ -19,10 +19,18 @@ int main()
 
          case '-':
          cout<<n1-n2;
+         break;
+
          case '*':
          cout<<n1*n2;
+         break;
+
          case '/':
          cout<<((float)n1/n2);
+         break;
+
+         default:
+         cout<<"u entered invalid operator\n";
      }
 
 }

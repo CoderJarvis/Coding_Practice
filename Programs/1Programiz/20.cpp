@@ -1,4 +1,4 @@
-// C Program to Calculate the Power of a Number
+// C Program to Calculate the Power of a Number.
 
 #include <iostream>
 #include <math.h>
@@ -6,10 +6,13 @@ using namespace std;
 int main()
 {
     double n,p;
-     cin>>n>>p;
-    cout<<pow(n,p);
+    int res=1;
+    cin>>n>>p;
 
-
-
-cout<<endl;
+    while(p)
+    {
+        res=res*n;
+        p--;
+    }
+    cout<<res;
 }

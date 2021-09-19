@@ -1,4 +1,5 @@
-// C Program to Multiply two Matrices by Passing Matrix to a Function
+// C Program to Multiply two Matrices by Passing Matrix to a Function.
+//not completed
 
 #include <iostream>
 using namespace std;

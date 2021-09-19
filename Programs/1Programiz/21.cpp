@@ -1,4 +1,4 @@
-// C Program to Check Whether a Number is Palindrome or Not
+// C Program to Check Whether a Number is Palindrome or Not.
 
 #include <iostream>
 using namespace std;
@@ -19,7 +19,4 @@ int main()
      cout<<"palindrom\n";
      else
      cout<<"not\n";
-     
-
-cout<<endl;
 }

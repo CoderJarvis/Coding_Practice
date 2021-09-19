@@ -1,4 +1,4 @@
-// C Program to Add Two Complex Numbers by Passing Structure to a Function
+// C Program to Add Two Complex Numbers by Passing Structure to a Function.
 
 #include <iostream>
 using namespace std;

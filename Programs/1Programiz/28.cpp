@@ -1,11 +1,9 @@
-// pattern printing half pyramid of *
+// pattern printing half pyramid of *.
 
 #include <iostream>
 using namespace std;
 int main()
 {
-
-     //pattern printing
 
      int n;
      cin>>n;
@@ -17,6 +15,5 @@ int main()
           }
           cout<<endl;
      }
-
 
 }

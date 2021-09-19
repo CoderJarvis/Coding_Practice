@@ -1,11 +1,11 @@
-// C Program to Find Largest Number Using Dynamic Memory Allocation
+// C Program to Find Largest Number Using Dynamic Memory Allocation.
 
 #include <iostream>
 using namespace std;
 int main()
 {
 
-     int *p=(int*)malloc(5*sizeof(int));
+     int *p=(int*)malloc(5*sizeof(int));    //malloc() returns (void*), so we have to typecast to (int*)
     
 
      for(int i=0;i<5;i++)
@@ -22,8 +22,9 @@ int main()
         }
     }
     cout<<max;
-
-
-
-
 }
+
+
+
+
+

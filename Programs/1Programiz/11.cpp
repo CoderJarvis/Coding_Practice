@@ -1,17 +1,17 @@
-// C Program to Find Factorial of a Number
+// C Program to Find Factorial of a Number.
 
 #include <iostream>
 using namespace std;
 int main()
 {
-
-     int n;
-     cin>>n;
+    int n;
+    cin>>n;
     int fact=1;
-    for(int i=1;i<=n;i++)
+
+    while(n)
     {
-        fact=fact*i;
+        fact=fact*n;
+        n--;
     }
     cout<<fact;
-
 }

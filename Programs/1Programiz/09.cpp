@@ -1,11 +1,10 @@
-// C Program to Find the Roots of a Quadratic Equation
+// C Program to Find the Roots of a Quadratic Equation.
 
 #include <iostream>
 #include<cmath>
 using namespace std;
 int main()
 {
-
      int a,b,c;
      cout<<"enter the quadratic equation\n";
      cin>>a>>b>>c;
@@ -35,6 +34,4 @@ int main()
         double d2=img;
         cout<<"root 1 = "<<d1<<" root2 = "<<d2<<"i"<<endl;
     }
-
-
 }
