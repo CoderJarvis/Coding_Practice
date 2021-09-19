@@ -20,9 +20,4 @@ int main()
 
      cout<<lcm<<endl;
      
-
-
-
-
-cout<<"\n";
 }
