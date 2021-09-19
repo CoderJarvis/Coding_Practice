@@ -1,4 +1,4 @@
-// C Program to Compute Quotient and Remainder.
+// C Program to Compute Quotient and Remainder
 
 #include <iostream>
 using namespace std;
