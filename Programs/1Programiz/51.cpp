@@ -24,7 +24,4 @@ int main()
 
      cout<<"vowel "<<countVowel<<endl<<"consonent "<<countConsonant;
 
-
-
-
 }
