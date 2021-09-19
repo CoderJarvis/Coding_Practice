@@ -14,6 +14,5 @@ int main()
         hcf=i; //hcf or gcd is the heightest divisor of both the nuber 
     }
     cout<<hcf<<endl;
-    
 
 }
