@@ -1,4 +1,4 @@
-// C Program to Check Whether a Character is a Vowel or Consonant.
+// C Program to Check Whether a Character is a Vowel or Consonant
 
 #include <iostream>
 using namespace std;
