@@ -1,4 +1,4 @@
-// C "Hello, World!" Programm.
+// C "Hello, World!" Programm
 
 #include <iostream>
 using namespace std;
