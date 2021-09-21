@@ -1,4 +1,4 @@
-// C Program to Add Two Distances (in inch-feet system) using Structures
+// C Program to Add Two Distances (in inch-feet system) using Structures.
 
 #include <iostream>
 using namespace std;
