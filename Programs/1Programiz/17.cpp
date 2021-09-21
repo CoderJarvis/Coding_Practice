@@ -1,4 +1,4 @@
-// C Program to Display Characters from A to Z Using Loop.
+// C Program to Display Characters from A to Z Using Loop
 
 #include <iostream>
 #include <stdio.h>
