@@ -1,4 +1,4 @@
-// C Program to Reverse a Sentence Using Recursion.
+// C Program to Reverse a Sentence Using Recursion
 
 #include <iostream>
 #include <string.h>
