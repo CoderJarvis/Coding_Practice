@@ -1,4 +1,4 @@
-// C Program to Find GCD of two Numbers.
+// C Program to Find GCD of two Numbers
 
 #include <iostream>
 using namespace std;
