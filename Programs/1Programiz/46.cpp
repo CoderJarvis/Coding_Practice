@@ -1,4 +1,4 @@
-// C Program to Access Array Elements Using Pointer.
+// C Program to Access Array Elements Using Pointer
 
 #include <iostream>
 using namespace std;
