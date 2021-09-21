@@ -1,4 +1,4 @@
-// C Program to Count Number of Digits in an Integer.
+// C Program to Count Number of Digits in an Integer
 
 #include <iostream>
 using namespace std;
