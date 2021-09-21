@@ -1,4 +1,4 @@
-// C Program to Find Factorial of a Number Using Recursion.
+// C Program to Find Factorial of a Number Using Recursion
 
 #include <iostream>
 using namespace std;
