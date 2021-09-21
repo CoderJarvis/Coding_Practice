@@ -1,4 +1,4 @@
-// C Program to Calculate Average Using Arrays.
+// C Program to Calculate Average Using Arrays
 
 #include <iostream>
 using namespace std;
