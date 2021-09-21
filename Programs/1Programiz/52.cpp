@@ -1,4 +1,4 @@
-// C Program to Remove all Characters in a String Except Alphabets
+// C Program to Remove all Characters in a String Except Alphabets.
 //NSB
 
 #include <iostream>
