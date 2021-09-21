@@ -1,4 +1,4 @@
-// C Program to Find Largest Element in an Array.
+// C Program to Find Largest Element in an Array
 
 #include <iostream>
 using namespace std;
