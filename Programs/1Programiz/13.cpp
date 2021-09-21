@@ -1,4 +1,4 @@
-// C Program to Generate Multiplication Table.
+// C Program to Generate Multiplication Table
 
 #include <iostream>
 using namespace std;
