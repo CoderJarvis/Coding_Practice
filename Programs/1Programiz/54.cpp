@@ -1,4 +1,4 @@
-// C Program to Concatenate Two Strings.
+// C Program to Concatenate Two Strings
 
 #include <iostream>
 using namespace std;
