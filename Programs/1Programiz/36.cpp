@@ -1,4 +1,4 @@
-// C Program to Convert Binary Number to Decimal and vice-versa.
+// C Program to Convert Binary Number to Decimal and vice-versa
 
 #include <iostream>
 #include <math.h>
