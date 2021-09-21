@@ -1,4 +1,4 @@
-// C Program to Check Armstrong Number.
+// C Program to Check Armstrong Number
 
 #include <iostream>
 #include <math.h>
