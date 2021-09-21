@@ -1,4 +1,4 @@
-// C Program to Find the Size of int, float, double and char.
+// C Program to Find the Size of int, float, double and char
 
 #include <iostream>
 using namespace std;
