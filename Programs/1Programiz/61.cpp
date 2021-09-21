@@ -1,4 +1,4 @@
-// C Program to Store Data in Structures Dynamically.
+// C Program to Store Data in Structures Dynamically
 
 #include <iostream>
 using namespace std;
