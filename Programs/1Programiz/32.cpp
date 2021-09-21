@@ -1,4 +1,4 @@
-// C Program to Check Prime or Armstrong Number Using User-defined Function.
+// C Program to Check Prime or Armstrong Number Using User-defined Function
 
 #include <iostream>
 using namespace std;
