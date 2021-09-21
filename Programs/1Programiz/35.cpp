@@ -1,4 +1,4 @@
-// C Program to Find G.C.D Using Recursion.
+// C Program to Find G.C.D Using Recursion
 
 #include <iostream>
 using namespace std;
