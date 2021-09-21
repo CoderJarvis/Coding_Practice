@@ -1,4 +1,4 @@
-// C Program to Calculate Difference Between Two Time Periods.
+// C Program to Calculate Difference Between Two Time Periods
 
 #include <iostream>
 using namespace std;
