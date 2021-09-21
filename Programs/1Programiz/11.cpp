@@ -1,4 +1,4 @@
-// C Program to Find Factorial of a Number.
+// C Program to Find Factorial of a Number
 
 #include <iostream>
 using namespace std;
