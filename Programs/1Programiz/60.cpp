@@ -9,6 +9,7 @@ typedef struct timeperiod
     int  minute;
     int  second;
 }time;
+
 int main()
 {
     time t1,t2,diff;
@@ -17,12 +18,10 @@ int main()
     cout<<"enter time 12\n";
     cin>>t2.hour>>t2.minute>>t2.second;
     
-   diff.hour= t1.hour>t2.hour?t1.hour-t2.hour:t2.hour-t1.hour;
-   diff.minute= t1.minute>t2.minute?t1.minute-t2.minute:t2.minute-t1.minute;
-   diff.second=t1.second>t2.second?t1.second-t2.second:t2.second-t1.second;
+    diff.hour= t1.hour>t2.hour?t1.hour-t2.hour:t2.hour-t1.hour;
+    diff.minute= t1.minute>t2.minute?t1.minute-t2.minute:t2.minute-t1.minute;
+    diff.second=t1.second>t2.second?t1.second-t2.second:t2.second-t1.second;
      
     cout<<diff.hour<<" "<<diff.minute<<" "<<diff.second;
-
-
 
 }

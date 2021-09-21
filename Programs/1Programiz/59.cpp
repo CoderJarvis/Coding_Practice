@@ -8,18 +8,14 @@ typedef struct complex
     float img;
 
 }comp;
+
 int main()
 {
-comp c1,c2,result;
-cin>>c1.real>>c1.img>>c2.real>>c2.img;
+    comp c1,c2,result;
+    cin>>c1.real>>c1.img>>c2.real>>c2.img;
 
-result.real=c1.real+c2.real;
-result.img=c1.img+c2.img;
+    result.real=c1.real+c2.real;
+    result.img=c1.img+c2.img;
 
-cout<<"addition :"<<result.real<<"i +"<<result.img;
-     
-
-
-
-
+    cout<<"addition :"<<result.real<<"i +"<<result.img;
 }

@@ -11,8 +11,6 @@ struct student
     string phoneno;
     string address;
     int Securedmark;
-
-
 };
 int main()
 {
@@ -34,11 +32,5 @@ int main()
      cout<<"\nphone no :"<<s1.phoneno;
      cout<<"\naddres :"<<s1.address;
      cout<<"\nsecured mark :"<<s1.Securedmark;
-
-
-
-
-
-
 
 }

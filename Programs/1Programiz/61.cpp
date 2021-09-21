@@ -33,9 +33,4 @@ int main()
         // printf("%d\n",(ptr+i)->mark);
     }
 
-     
-
-
-
-
 }

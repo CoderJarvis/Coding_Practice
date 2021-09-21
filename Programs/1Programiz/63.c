@@ -10,7 +10,4 @@ int main()
    gets(st);
    fprintf(ptr,st);
    fclose(ptr);
-
-
-
 }

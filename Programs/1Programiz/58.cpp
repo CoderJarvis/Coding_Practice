@@ -22,7 +22,4 @@ int main()
 
      cout<<"sum of the distances : "<<result.feet<<"' "<<result.inch<<"\"";
 
-
-
-
 }
