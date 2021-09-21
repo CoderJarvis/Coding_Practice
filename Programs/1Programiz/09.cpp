@@ -1,4 +1,4 @@
-// C Program to Find the Roots of a Quadratic Equation.
+// C Program to Find the Roots of a Quadratic Equation
 
 #include <iostream>
 #include<cmath>
