@@ -1,4 +1,4 @@
-// C Program to see the size using long keyword
+// C Program to see the size using long keyword.
 
 #include <iostream>
 using namespace std;
