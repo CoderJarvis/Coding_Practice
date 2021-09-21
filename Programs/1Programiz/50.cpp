@@ -1,4 +1,4 @@
-// C Program to Find the Frequency of Characters in a String.
+// C Program to Find the Frequency of Characters in a String
 
 #include <iostream>
 #include <string>
