@@ -1,4 +1,4 @@
-// C Program to Find the Sum of Natural Numbers using Recursion.
+// C Program to Find the Sum of Natural Numbers using Recursion
 
 #include <iostream>
 using namespace std;
