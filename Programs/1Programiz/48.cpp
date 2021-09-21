@@ -1,4 +1,4 @@
-// C Program to Find Largest Number Using Dynamic Memory Allocation.
+// C Program to Find Largest Number Using Dynamic Memory Allocation
 
 #include <iostream>
 using namespace std;
