@@ -1,4 +1,4 @@
-// C Program Swap Numbers in Cyclic Order Using Call by Reference.
+// C Program Swap Numbers in Cyclic Order Using Call by Reference
 
 #include <iostream>
 using namespace std;
