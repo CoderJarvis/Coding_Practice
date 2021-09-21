@@ -1,4 +1,4 @@
-// C program to calculate the power using recursion.
+// C program to calculate the power using recursion
 
 #include <iostream>
 using namespace std;
