@@ -1,4 +1,4 @@
-// C Program to Calculate the Power of a Number.
+// C Program to Calculate the Power of a Number
 
 #include <iostream>
 #include <math.h>
