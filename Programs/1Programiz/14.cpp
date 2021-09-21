@@ -1,4 +1,4 @@
-// C Program to Display Fibonacci Sequence.
+// C Program to Display Fibonacci Sequence
 
 #include <iostream>
 using namespace std;
