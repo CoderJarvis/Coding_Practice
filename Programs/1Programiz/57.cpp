@@ -1,4 +1,4 @@
-// C Program to Store Information of a Student Using Structure.
+// C Program to Store Information of a Student Using Structure
 
 #include <iostream>
 using namespace std;
