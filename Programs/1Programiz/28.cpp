@@ -1,4 +1,4 @@
-// pattern printing half pyramid of *.
+// pattern printing half pyramid of *
 
 #include <iostream>
 using namespace std;
