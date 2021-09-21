@@ -1,4 +1,4 @@
-// C Program to Display Factors of a Number.
+// C Program to Display Factors of a Number
 
 #include <iostream>
 using namespace std;
