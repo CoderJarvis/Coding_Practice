@@ -1,4 +1,4 @@
-// C Program to Copy String Without Using strcpy()
+// C Program to Copy String Withoutt Using strcpy()
 
 #include <iostream>
 using namespace std;
