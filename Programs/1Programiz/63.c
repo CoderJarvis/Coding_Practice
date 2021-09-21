@@ -1,4 +1,4 @@
-// C Program to Write a Sentence to a File..
+// C Program to Write a Sentence to a File
 
 #include <stdio.h>
 int main()
