@@ -1,4 +1,4 @@
-// C Program to Display Prime Numbers Between Intervals Using Function.
+// C Program to Display Prime Numbers Between Intervals Using Function
 
 #include <iostream>
 using namespace std;
