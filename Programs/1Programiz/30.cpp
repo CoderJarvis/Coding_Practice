@@ -1,4 +1,4 @@
-// C Program to Demonstrate the Working of Keyword long.
+// C Program to Demonstrate the Working of Keyword long
 
 #include <iostream>
 using namespace std;
