@@ -1,4 +1,4 @@
-// C Program to Find Transpose of a Matrix.
+// C Program to Find Transpose of a Matrix
 
 #include <iostream>
 using namespace std;
