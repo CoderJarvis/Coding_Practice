@@ -1,4 +1,4 @@
-// C Program to Count the Number of Vowels, Consonants and so on.
+// C Program to Count the Number of Vowels, Consonants and so on
 
 #include <iostream>
 using namespace std;
