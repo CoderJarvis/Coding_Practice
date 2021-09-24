@@ -1,4 +1,4 @@
-// Program to find the Largest number among n input Numbers
+// Program to find the Largest number among n input Numbers.
 
 #include <iostream>
 #include <limits.h>
