@@ -1,4 +1,4 @@
-// Program to check if input Number is int or float
+// Program to check if input Number is int or float.
 
 #include <iostream>
 using namespace std;
