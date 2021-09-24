@@ -1,4 +1,4 @@
-// Basic program to show use of nested for Loops
+// Basic program to show use of nested for Loops.
 
 #include <iostream>
 using namespace std;
