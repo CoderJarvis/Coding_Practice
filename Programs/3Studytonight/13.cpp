@@ -1,4 +1,4 @@
-// Program to find Sum of N input Numbers in C
+// Program to find Sum of N input Numbers in C.
 
 #include <iostream>
 using namespace std;
