@@ -1,4 +1,4 @@
-// Program to reverse the case of input character
+// Program to reverse the case of input character.
 #include <iostream>
 using namespace std;
 int main()
