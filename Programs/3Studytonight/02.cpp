@@ -1,4 +1,4 @@
-// How to use gets() function
+// How to use gets() function.
 #include <iostream>
 using namespace std;
 int main()
