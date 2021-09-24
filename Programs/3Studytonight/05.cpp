@@ -1,4 +1,4 @@
-// Program to print the Largest and Smallest //%5d vs %05d
+// Program to print the Largest and Smallest //%5d vs %05d.
 
 #include <iostream>
 using namespace std;
