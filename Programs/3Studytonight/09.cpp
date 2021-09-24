@@ -1,4 +1,4 @@
-//Program to print the Fibonacci Series
+//Program to print the Fibonacci Series.
 #include <iostream>
 using namespace std;
 
