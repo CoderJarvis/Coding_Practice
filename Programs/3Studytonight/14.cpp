@@ -1,4 +1,4 @@
-// Program to find first N Prime Numbers
+// Program to find first N Prime Numbers.
 
 #include <iostream>
 using namespace std;
