@@ -1,4 +1,4 @@
-// Program to find average of N Numbers
+// Program to find average of N Numbers.
 
 #include <iostream>
 using namespace std;
