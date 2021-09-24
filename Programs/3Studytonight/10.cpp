@@ -1,4 +1,4 @@
-// Program to reverse a String
+// Program to reverse a String.
 
 #include <iostream>
 #include <string.h>
