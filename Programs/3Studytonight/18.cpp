@@ -1,4 +1,4 @@
-// Program to print the Multiplication Table of any Number
+// Program to print the Multiplication Table of any Number.
 
 #include <iostream>
 using namespace std;
