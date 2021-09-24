@@ -21,8 +21,4 @@ int main()
          cout<<"its a int";
      }
 
-
-
-
-
 }

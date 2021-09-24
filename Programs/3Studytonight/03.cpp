@@ -3,14 +3,8 @@
 using namespace std;
 int main()
 {
-
      char c;
      cin>>c;
      c>=97?printf("%c",c-32):printf("%c",c+32);
-     
-
-     
-     //my logic can be better
-
-
+     // cout<<c+1;//66//jc
 }

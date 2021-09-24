@@ -4,7 +4,6 @@
 using namespace std;
 int prime(int x)
 {   
-    int flag;
     int i;
     for(i=2;i<x;i++)
      {
@@ -14,36 +13,20 @@ int prime(int x)
          }
      }
 
-     if(i==x)
+    if(i==x)
     return 1;
 }
 int main()
 {
-    int n;
-    cin>>n;
-
-
-
-    // int count=1;
-    // for(int i=2;count<=n;i++)
-    // {
-    //     if(prime(i))
-    //     {   
-    //         count++;
-    //         cout<<i<<" ";
-    //     }
-    // }
-
-    
-    for(int i=2;n;i++)
+    int c;
+    cin>>c;
+   
+    for(int i=2;c;i++)
     {
         if(prime(i))
         {             
             cout<<i<<" ";
-            n--;
+            c--;
         }
     }
-
-
-
 }

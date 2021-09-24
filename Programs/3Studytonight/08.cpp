@@ -4,7 +4,6 @@
 using namespace std;
 int main()
 {
-
      int n;
      cin>>n;
      int fact=1;
@@ -13,6 +12,4 @@ int main()
          fact=fact*i;
      }
      cout<<fact;
-
-
 }
