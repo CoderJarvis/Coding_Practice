@@ -1,4 +1,4 @@
-// Program to find exponential without using pow() method
+// Program to find exponential without using pow() method.
 
 #include <iostream>
 using namespace std;
