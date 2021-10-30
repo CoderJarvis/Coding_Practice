@@ -19,8 +19,4 @@ int main()
     cin>>n;
     cout<<fact(n);
 
-
-
-
-
 }

@@ -32,7 +32,7 @@ int main()
             arr[i+1]=arr[i];
     }
     arr[pos-1]=ele;
-    n=n+1;
+    n=n+1;  //imp
     cout<<"the nw array is\n";
 
      for(int i=0;i<n;i++)

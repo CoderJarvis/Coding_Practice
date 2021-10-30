@@ -4,7 +4,9 @@
 using namespace std;
 int fibo(int n)
 {
-  if(n<=2)
+  if (n==1)
+  return 0;
+  if(n==2)
   return 1;
 
   else
@@ -16,5 +18,8 @@ int main()
      int n;
      cin>>n;
 
-     cout<<fibo(n);
+     for(int i=1;i<=n;i++)
+     {
+       cout<<fibo(i)<<" ";
+     }
 }

@@ -39,7 +39,7 @@ int main()
      {
          arr[i-1]=arr[i];
      }
-     n--;
+     n--;   //imp
 
        for(int i=0;i<n;i++)
      {

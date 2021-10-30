@@ -9,10 +9,9 @@ int main()
     int res=1;
     cin>>n>>p;
 
-    while(p)
+    while(p--)
     {
         res=res*n;
-        p--;
     }
     cout<<res;
 }

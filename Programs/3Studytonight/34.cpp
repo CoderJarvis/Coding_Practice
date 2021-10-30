@@ -12,7 +12,7 @@ int main()
      int **pptr;
 
      ptr = &val;
-     pptr = &ptr;
+     pptr = &ptr;//main
 
      cout << "the value of val is :" << val << endl;
      cout << "the value of val is :" << *ptr << endl;

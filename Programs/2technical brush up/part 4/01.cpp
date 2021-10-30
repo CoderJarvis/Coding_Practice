@@ -20,7 +20,7 @@ int main()
     cin >> n;
     int i, j;
     for (i = 1, j = 0; i <= n; i++, j++)
-    {
+    { 
         sum = sum + (float)pow(n, i) / fact(n - j);
     }
     cout << sum;

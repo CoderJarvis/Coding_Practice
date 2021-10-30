@@ -1,15 +1,18 @@
-// C Program to Reverse a Sentence Using Recursion
+//C Program to Reverse a Sentence Using Recursion
 
 #include <iostream>
-#include <string.h>
 using namespace std;
 int main()
 {
-    string st;
+     string st;
      getline(cin,st);
-
-     for (int i = st.length()-1; i >=0; i--)
+    char c;
+     for(int i=0,j=st.length()-1;i<j;i++,j--)
      {
-         cout<<st[i];
+         c=st[i];
+         st[i]=st[j];
+         st[j]=c;
      }
+    cout<<st;
+
 }
