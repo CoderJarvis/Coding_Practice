@@ -1,4 +1,7 @@
-#include <iostream.h>
+// program to find num is even or odd
+
+#include <iostream>
+using namespace std;
 int main() {
     int num;
     printf("Enter an integer: ");

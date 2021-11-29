@@ -6,15 +6,9 @@
 using namespace std;
 int main()
 {
-     char st[20];
-     gets(st);
-     int n=strlen(st);
-    //  printf("%s\n",st);
-    //  cout<<st[n-1]<<endl;
-    //  for(int i=n-1;i>=0;i--)
-    //  {
-    //      printf("%c",st[i]);
-    //  }
+     string st;
+     getline(cin,st);
+     int n=st.length();
 
     int i,j;
 
@@ -26,5 +20,5 @@ int main()
         st[j]=c;
     }
 
-    printf("%s",st);   
+    cout<<st;  
 }
