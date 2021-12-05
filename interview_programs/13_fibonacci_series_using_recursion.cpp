@@ -12,8 +12,12 @@ int fib(int n)
  
 int main ()
 {
-    int n = 9;
-    cout << fib(n);
+    int term;
+    cin>>term;
+    for(int i=0;i<term;i++)
+    {
+        cout << fib(i)<<" ";
+    }
     getchar();
     return 0;
 }
