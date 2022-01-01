@@ -50,5 +50,7 @@ public class OOP_08_Interface {
     public static void main(String[] args) {
         Samsung ob=new Samsung();
         ob.call();
+        ob.internet();
+        ob.gps();
     }
 }
