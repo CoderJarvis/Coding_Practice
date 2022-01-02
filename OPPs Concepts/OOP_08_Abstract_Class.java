@@ -2,6 +2,10 @@ abstract class KeypadPhone
 {
     abstract void call();
     abstract void message();
+    public void display()
+    {
+        System.out.println("this phone has a display");
+    }
 }
 class SmartPhone extends KeypadPhone
 {
@@ -28,5 +32,6 @@ public class OOP_08_Abstract_Class {
         ob.call();
         ob.game();
         ob.internet();
+        ob.display();
     }
 }
