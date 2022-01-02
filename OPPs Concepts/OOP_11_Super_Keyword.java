@@ -22,10 +22,10 @@ class Derived extends Base
         System.out.println("i am Derived class's Parameterized Constructors");
     }
 }
-public class OOP_10_Super_Keyword {
+public class OOP_11_Super_Keyword {
     public static void main(String[] args) {
         // Base ob1=new Base(11);
-        Derived ob2=new Derived(11);
+        new Derived(11);
 
     }
 }

@@ -45,7 +45,7 @@ class Samsung implements SmartPhone
         System.out.println("you can use camera in this phone");
     }
 }
-public class OOP_08_Interface {
+public class OOP_09_Interface {
 
     public static void main(String[] args) {
         Samsung ob=new Samsung();

@@ -25,7 +25,7 @@ class SmartPhone extends KeypadPhone
         System.out.println("you can use internet using this phone");
     }
 }
-public class OOP_run_time_polymorphism {
+public class OOP_07_Dynamic_Method_Dispatch {
     public static void main(String[] args) {
         KeypadPhone ob1=new KeypadPhone();
         ob1.camera();
