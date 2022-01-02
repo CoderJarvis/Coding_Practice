@@ -1,6 +1,6 @@
 interface SmartPhone
 {
-    void call();
+    abstract void call();
     void message();
     void internet();
     void game();

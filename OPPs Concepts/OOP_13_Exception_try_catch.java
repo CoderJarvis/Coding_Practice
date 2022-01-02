@@ -11,7 +11,7 @@ public class OOP_13_Exception_try_catch {
             // System.out.println(e);
             System.out.println("you can't devide by 0");
         }
-        int[] arr={11,22,33};
+        int arr[]={11,22,33};
         try
         {
             System.out.println("array's 3rd element is "+arr[3]);
